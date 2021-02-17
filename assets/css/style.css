@@ -1330,7 +1330,8 @@ ul {
 
 .logo {
   display: block;
-  width: 100px;
+  width: 150px;
+  margin-top: 10px;
 }
 
 /*------------------------------
@@ -1574,7 +1575,7 @@ ul {
       position: absolute;
       top: 0;
       right: 0;
-      background-color: #9749f8;
+      background-color: #a92c94;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -1582,7 +1583,7 @@ ul {
       cursor: pointer;
       width: 150px; }
       .header-area.style-four .header-inner .free-trail-form .submit-btn:hover {
-        background-color: #5e2ced; }
+        background-color: #771667; }
   .header-area.style-three .header-overlay-image {
     position: absolute;
     left: 0;

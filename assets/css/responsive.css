@@ -181,9 +181,6 @@
     .header-area .header-inner p{
         color: #444;
     }
-    .header-area {
-        border-bottom: 1px solid #ededed;
-    }
     .about-us-area.style-two .feature-list .single-feature-list{
         width: calc(50% - 30px);
         margin: 0 15px;
@@ -493,9 +490,6 @@
     }
     .header-area .header-right-image{
         display: none;
-    }
-    .header-area {
-        border-bottom: 1px solid #e2e2e2;
     }
     .header-area .header-inner .title {
         font-size: 50px;
