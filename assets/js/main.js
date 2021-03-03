@@ -191,12 +191,12 @@
         var $testimonialCarousel = $('.testimonial-carousel');
         if ($testimonialCarousel.length > 0) {
             $testimonialCarousel.owlCarousel({
-                loop: true,
-                autoplay: true, //true if you want enable autoplay
+                loop: false,
+                autoplay: false, //true if you want enable autoplay
                 autoPlayTimeout: 1000,
                 margin: 30,
-                dots: true,
-                nav: true,
+                dots: false,
+                nav: false,
                 smartSpeed:3000,
                 animateIn:'fadeIn',
                 animateOut:"fadeOut",
