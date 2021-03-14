@@ -4301,6 +4301,12 @@ ul {
           .single-post-details-item .entry-footer .right ul li a:hover {
             color: #500ade; }
 
+.single-post-details-item .entry-content .c0 {
+  margin-left: 20px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .dark-bg .comment-area .comment-title {
   color: #fff; }
 
