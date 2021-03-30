@@ -1,3 +1,16 @@
+
+@media only screen and (min-width: 1900px) {
+    .header-area .header-right-image {
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1899px) {
+    .header-area .header-right-image {
+        right: 10%;
+    }
+}
+
 /* Medium Layout: 1200px. */
 @media only screen and (min-width: 1201px) and (max-width: 1366px){
     .header-area .header-right-image {
@@ -407,6 +420,8 @@
 
 @media only screen and (max-width: 767px) {
    
+    .padding-top-120, .padding-top-110 {padding-top: 0;}
+
     .navbar-light .navbar-toggler {
         background-color: #fff;
     }
@@ -484,6 +499,9 @@
     
     .navbar-area .container {
         position: relative;
+    }
+    .header-area {
+        padding: 200px 0 120px 0 !important;
     }
     .header-area.header-bg {
         background-position: left top;
@@ -733,6 +751,14 @@
     .full-width-feature-style-03.bg-cover.padding-top-120 {
         padding-top: 60px;
     }
+
+    .footer-top {
+        text-align: center;
+    }
+    .footer-top .footer-widget.about_widget {
+        display: inline-block;
+        width: 150px;
+    }
 }
 
 
@@ -926,7 +952,7 @@
 
 @media only screen and (max-width: 414px) {
     .header-area {
-        padding: 260px 0 155px 0;
+        padding: 200px 0 100px 0;
     }
     .header-area .header-inner .title {
         font-size: 38px;
@@ -966,10 +992,7 @@
         font-weight: 600;
     }
     .breadcrumb-area {
-        padding: 200px 0 100px 0;
-    }
-    .breadcrumb-area.extra {
-        padding-top: 200px;
+        padding: 134px 0 25px 0;
     }
     .navbar-area.nav-fixed .navbar-collapse .navbar-nav .nav-item .nav-link.boxed-btn{
         border:none;
@@ -1147,8 +1170,13 @@
     .header-form-area .header-form-inner {
         padding: 40px 30px 50px 30px;
     }
-    .header-area.style-four .header-inner .free-trail-form .submit-btn {
+    .free-trail-form .form-group .form-control {
+        padding: 0 20px 0 10px;
+    }
+    .free-trail-form .submit-btn {
+        position: relative;
         width: 110px;
+        border-radius: 5px;
     }
     .header-area.style-12 .header-inner .title {
         font-size: 36px;
