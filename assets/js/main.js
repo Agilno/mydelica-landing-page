@@ -421,7 +421,21 @@
             preloader
         -----------------------------*/
         var preLoder = $("#preloader");
-        preLoder.fadeOut(1000);
+
+        if(preLoder.hasClass('animated-preloader')) {
+            bodymovin.loadAnimation({
+                container: document.getElementById('bm'),
+                renderer: 'svg',
+                loop: false,
+                autoplay: true,
+                path: 'assets/mydelica.json'
+            });
+
+            preLoder.delay(2000).fadeOut(2000);
+        } else {
+            preLoder.delay(2000).fadeOut(500);
+        }
+
         /*-----------------------------
             back to top
         -----------------------------*/

@@ -115,6 +115,16 @@
 }
 
 
+@media only screen and (min-width: 992px) {
+    .md-hidden { display: block; }
+    .lg-hidden { display: none; }
+}
+
+@media only screen and (max-width: 991px) {
+    .md-hidden { display: none; }
+    .lg-hidden { display: block; }
+}
+
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -781,9 +791,17 @@
         line-height: 55px;
     }
     .header-area .header-inner p {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .img-schedule-journey {margin-bottom: 50px;}
+    .section-title h4.title,
+    .download-area-wrapper.white .title {
+        font-size: 22px;
         line-height: 30px;
     }
+
     .section-title .title, 
     .video-area .right-content-area .title, 
     .download-area-wrapper .title, 
