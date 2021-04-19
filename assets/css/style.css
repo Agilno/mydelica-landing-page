@@ -4016,6 +4016,7 @@ ul {
 /*--------------------
     Blog Details
 --------------------*/
+
 .single-post-details-item.dark-bg .entry-footer {
   border-color: rgba(255, 255, 255, 0.2); }
   .single-post-details-item.dark-bg .entry-footer .left .title, .single-post-details-item.dark-bg .entry-footer .right .title {
@@ -4102,6 +4103,12 @@ ul {
     font-weight: 600;
     line-height: 26px;
     margin-top: 20px; }
+
+.single-post-details-item ol li a { 
+  display: block;
+  padding-bottom: 10px;
+  color: #b8b8c0; 
+}
 
 .single-post-details-item .entry-footer {
   border: 1px solid rgba(0, 0, 0, 0.1);
